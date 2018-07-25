@@ -41,7 +41,7 @@ def least_coins(cents)
   end
 
 coins_needed = {:quarters => quarters, :dimes => dimes, :nickels => nickels, :pennies => pennies} 
-return coins_needed
+puts coins_needed
   
 end
 least_coins(29)
